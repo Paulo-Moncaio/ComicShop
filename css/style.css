@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: blue;
+}
+
+/* Header */
+header .container-header{
+    display: flex;
+    margin: 1% 1% 0px 1%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 34vw;
+    background-position: center;
+    background-image: url(../img/marvel-dc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header .container-header h1, .container-header h2{
+    position: absolute;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    align-items: center;
+}
+header .container-header h2{
+    font-size: 1.2em;
+    margin-top: 10vh;
+    width: 30vh;
+}
+header nav{
+    position: sticky;
+    margin: 0% 1% 1% 1%;
+    height: 30px;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    bottom: 0em;
+}
+header nav ul{
+    justify-content: left;
+}
+.carrinho{
+    justify-content: right;
+    align-items: flex-end;
+}
+
+/* Main */
+.main{
+    display: flex;
+    width: 100%;
+}
+.main .container-section{
+    width: 69%;
+    margin: 1%;
+}
+img{
+    width: 100%;
+}
+.container-section, .container-aside{
+    display: flex;
+    flex-direction: column;
+}
+.container-aside{
+    width: 28%;
+}
+section{
+    background-color: white;
+    margin-bottom: 1%;
+    padding: 10px;
+}
+/* Footer */
+footer{
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    color: white;
+    height: 50px;
+    margin: 1%;
+}
+footer p{
+    justify-content: center;
+    align-items: center;
+}
