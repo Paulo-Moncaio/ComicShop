@@ -108,10 +108,11 @@ footer{
     text-align: center;
     align-items: center;
     color: white;
-    height: 50px;
+    height: 60px;
     margin: 1%;
 }
 footer p{
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
 }
