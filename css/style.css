@@ -9,7 +9,9 @@
 body{
     background-color: blue;
 }
-
+p{
+    margin: 1vw;
+}
 /* Header */
 header .container-header{
     display: flex;
@@ -61,7 +63,7 @@ header nav ul li a{
     width: 100%;
 }
 .main .container-section{
-    width: 69%;
+    width: 67%;
     margin: 1%;
 }
 img{
@@ -70,14 +72,17 @@ img{
 .container-section, .container-aside{
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
 }
 .container-aside{
-    width: 28%;
+    width: 30%;
 }
 section{
     background-color: white;
     margin-bottom: 1%;
     padding: 10px;
+    margin-top: 0%;
+    padding: 2.5vw;
 }
 /* Footer */
 footer{
