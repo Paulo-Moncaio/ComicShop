@@ -33,23 +33,26 @@ header .container-header h1, .container-header h2{
 header .container-header h2{
     font-size: 1.2em;
     margin-top: 10vh;
-    width: 30vh;
+    width: 35vh;
 }
+/* Manu Nav-bar */
 header nav{
     position: sticky;
     margin: 0% 1% 1% 1%;
-    height: 30px;
-    background-color: blueviolet;
-    display: flex;
-    align-items: center;
+    height: 3em;
     bottom: 0em;
+    padding: 1em;
+    background-color: blueviolet;
 }
-header nav ul{
-    justify-content: left;
+header nav ul li{
+    display: inline;
 }
-.carrinho{
-    justify-content: right;
-    align-items: flex-end;
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.nav-item{
+    float: right;
 }
 
 /* Main */
