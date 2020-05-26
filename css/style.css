@@ -34,7 +34,7 @@ header .container-header h1, .container-header h2{
 }
 header .container-header h2{
     font-size: 1.2em;
-    margin-top: 10vh;
+    margin-top: 10%;
     width: 35vh;
 }
 /* Manu Nav-bar */
@@ -76,7 +76,13 @@ img{
 }
 .container-aside{
     width: 30%;
+    height: fit-content;
+    margin-top: 1%;
 }
+.container-aside section{
+    margin-bottom: 3%;
+}
+
 section{
     background-color: white;
     margin-bottom: 1%;
@@ -115,4 +121,28 @@ footer p{
     text-align: center;
     color: #fff;
     padding-top: 20px;
+}
+
+/* @media querys */
+@media screen and (max-width: 800px){
+    main{
+        flex-direction: column;
+    }
+    .main .container-section{
+        width: 98%;
+    }
+    .main .container-aside{
+        width: 98%;
+        margin-left: 1%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .main .container-section{
+        width: 98%;
+    }
+    .main .container-aside{
+        width: 98%;
+        margin-left: 1%;
+    }
 }
