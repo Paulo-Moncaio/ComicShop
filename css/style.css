@@ -63,7 +63,7 @@ header nav ul li a{
     width: 100%;
 }
 .main .container-section{
-    width: 67%;
+    width: 60%;
     margin: 1%;
 }
 img{
@@ -75,7 +75,7 @@ img{
     justify-content: space-evenly;
 }
 .container-aside{
-    width: 30%;
+    width: 37%;
     height: fit-content;
     margin-top: 1%;
 }
