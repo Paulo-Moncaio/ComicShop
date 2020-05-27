@@ -72,7 +72,7 @@ img{
 .container-section, .container-aside{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-evenly;    
 }
 .container-aside{
     width: 37%;
@@ -80,12 +80,16 @@ img{
     margin-top: 1%;
 }
 .container-aside section{
-    margin-bottom: 3%;
+    margin-bottom: 1%;
+}
+
+.miniaturas-marvel{
+    margin-bottom: 1%;
 }
 
 section{
     background-color: white;
-    margin-bottom: 1%;
+    margin-bottom: 0%;
     margin-top: 0%;
     padding: 2.5vw;
 }
