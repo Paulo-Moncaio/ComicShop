@@ -68,11 +68,12 @@ header nav ul li a{
 }
 img{
     width: 100%;
+    margin: 1% 0% 1% 0%;
 }
 .container-section, .container-aside{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;    
+    justify-content: space-evenly;  
 }
 .container-aside{
     width: 37%;
@@ -131,6 +132,7 @@ footer p{
 @media screen and (max-width: 800px){
     main{
         flex-direction: column;
+        justify-content: space-evenly;
     }
     .main .container-section{
         width: 98%;
