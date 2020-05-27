@@ -112,6 +112,10 @@ section{
     color: #fff;
     cursor: pointer;
 }
+/* Localização */
+iframe{
+    margin: 1% 0% 1% 0%;
+}
 /* Footer */
 footer{
     background-color: black;
